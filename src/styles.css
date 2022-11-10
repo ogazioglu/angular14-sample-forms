@@ -1,0 +1,10 @@
+/* Add application styles & imports to this file! */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.control-label.required:after {
+  color: #d00;
+  content: '*';
+  margin-left: 5px;
+  top: 7px;
+}
